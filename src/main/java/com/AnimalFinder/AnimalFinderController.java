@@ -26,6 +26,10 @@ public class AnimalFinderController {
 		AnimalDTO animalDTO = animalServiceStub.fetchById(43);
 		return "start";
 	}
+	@RequestMapping("/")
+	public String index() {
+	return "start";
+	}
 
 }
 	
